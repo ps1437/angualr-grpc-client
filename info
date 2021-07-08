@@ -1,0 +1,1 @@
+docker run  -p 8080:8080 -p 8081:8081 -t envoyproxy/envoy-alpine:v1.14.1 -v ./envoy.yaml:/etc/envoy/envoy.yaml-
